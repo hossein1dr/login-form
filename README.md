@@ -13,4 +13,7 @@ Each field includes simple validation to ensure it is not left empty before subm
 - Input validation to prevent empty fields
 - Clean and simple design
 - Built with only HTML, CSS, and JavaScript
+---
+##### **Note❗**
+##### **Only visible in computer view !**
 
