@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.login {
+    margin-left: 40%;
+    margin-top: 10%;
+    background-color: white;
+    width: 350px;
+    display: block;
+    border: solid 4px gray ;
+    box-shadow: 7px 6px 3px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.title {
+    background:radial-gradient(red,blue);
+    margin:10% 19%;
+    font-size: 20px;
+    font-weight: 100%;
+    color:white;
+    box-shadow: 0px 0px 40px;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.form {
+     box-shadow: 0px 0px 25px;
+    padding: 16px;
+    border-radius: 40px;
+    margin-top: 20px;
+    display: block;
+
+}
+
+.input-box {
+    position: relative;
+}
+
+.form .input-box label {
+    font-size: 14px;
+    color: gray;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: white;
+    transition: all .3s ease;
+}
+
+.form .input-box input {
+    padding: 10px;
+     box-shadow: 0px 0px 15px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    outline: 0;
+    width: 100%;
+    background-color: transparent;
+}
+
+.form .input-box password {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    outline: 0;
+    width: 100%;
+}
+
+.form .input-box input:placeholder-shown + label 
+,
+.form .input-box password:placeholder-shown + label {
+    top: 10px;
+}
+
+.form .input-box input:focus,
+.form .input-box password:focus {
+    border-color: blue;
+}
+
+.form .input-box input:focus + label {
+    top: -10px;
+    left: 10px;
+    background-color: white;
+    color: blue;
+ 
+    font-size: 14px;
+}
+
+.form button {
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    background: linear-gradient(red,blue,red);
+    transition: all 0.3s ease;
+}
+
